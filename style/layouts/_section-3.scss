@@ -1,0 +1,24 @@
+.section-3 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-items: center;
+  border-radius: 10px;
+  box-shadow: -1px 5px 15px -1px rgba(0, 0, 0, 0.3);
+  margin: 60px auto 40px;
+  max-width: 90%;
+
+  .section-3-left {
+    width: 80%;
+  }
+
+  .section-3-right {
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+      max-width: 80%;
+      padding: 30px;
+    }
+  }
+}
